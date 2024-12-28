@@ -1,10 +1,10 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Zhuoxuan Zhang's homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Coming soon. 咪咪咪 
+Coming soon.
