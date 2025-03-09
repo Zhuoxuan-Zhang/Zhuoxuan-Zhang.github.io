@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhuoxuan Zhang's Homepage"
-description              : "This is Zhuoxuan Zhang's homepage."
+description              : #"This is Zhuoxuan Zhang's homepage."
 repository               : "Zhuoxuan-Zhang/Zhuoxuan-Zhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhuoxuan Zhang"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "I am interested in aaa, bbb, ccc."
+  avatar           : "images/67400945.png"
+  bio              : #"I am interested in aaa, bbb, ccc."
   location         : "Providence, RI"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "zhuoxuan_zhang@brown.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
