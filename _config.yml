@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhuoxuan Zhang's Homepage"
-description              : #"This is Zhuoxuan Zhang's homepage."
+description              : ""
 repository               : "Zhuoxuan-Zhang/Zhuoxuan-Zhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhuoxuan Zhang"
   avatar           : "images/67400945.png"
-  bio              : #"I am interested in aaa, bbb, ccc."
+  bio              : ""
   location         : "Providence, RI"
   employer         :
   pubmed           : 
