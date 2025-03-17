@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Zhuoxuan Zhang.
+My research focuses on understanding and controlling generative models to ensure they produce meaningful and trustworthy content. 
+
+I am fortunate to be advised by the wonderful [Prof. Chen Sun](https://chensun.me) and [Prof. Kaidi Xu](https://kaidixu.com).
 
 # 📖 Educations
 - *Master of Science in CS*, Brown University. 
@@ -50,4 +52,4 @@ Jinhao Duan\*, Xinyu Zhao\*, **Zhuoxuan Zhang\***, Eunhye Grace Ko, Lily Boddy, 
 # 🫡 Miscellaneous
 I love art in all its forms, both auditory and visual, finding beauty in both Western classical music and Eastern traditional performances. Playing the violin is one of my greatest joys, and I have a deep appreciation for Western classical music. I also enjoy Peking opera, especially the Shang School of Peking Opera Dan role (尚派), xiangsheng (crosstalk, a traditional Chinese comedic dialogue), and classical Chinese dance like 朝鲜舞 (Korean ethnic dance in the Chinese classical dance style).
 
-I grew up in Tianjin before moving to the U.S. for college, and I highly recommend visiting my hometown.Tianjin is a hub for traditional performing arts like kuaiban (快板, rhythmic storytelling with bamboo clappers), xiangsheng, dagu (大鼓, drum-accompanied ballads), and pingshu (评书, storytelling). The city is also famous for its breakfast culture, with must-try specialties like 煎饼果子 (a popular Chinese crepe), 嘎巴菜 (crispy fried dough in savory soup, another form of 煎饼果子), etc.
+<!-- I grew up in Tianjin before moving to the U.S. for college, and I highly recommend visiting my hometown.Tianjin is a hub for traditional performing arts like kuaiban (快板, rhythmic storytelling with bamboo clappers), xiangsheng, dagu (大鼓, drum-accompanied ballads), and pingshu (评书, storytelling). The city is also famous for its breakfast culture, with must-try specialties like 煎饼果子 (a popular Chinese crepe), 嘎巴菜 (crispy fried dough in savory soup, another form of 煎饼果子), etc. -->
