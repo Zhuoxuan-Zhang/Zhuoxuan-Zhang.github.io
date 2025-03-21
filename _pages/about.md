@@ -19,7 +19,7 @@ redirect_from:
 
 My research focuses on understanding and controlling generative models to ensure they produce meaningful and trustworthy content. 
 
-I am fortunate to be advised by the wonderful [Prof. Chen Sun](https://chensun.me) and [Prof. Kaidi Xu](https://kaidixu.com).
+<!-- I am fortunate to be advised by the wonderful [Prof. Chen Sun](https://chensun.me) and [Prof. Kaidi Xu](https://kaidixu.com). -->
 
 # 📖 Educations
 - *Master of Science in CS*, Brown University. 
