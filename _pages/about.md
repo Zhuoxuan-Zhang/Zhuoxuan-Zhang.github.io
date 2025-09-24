@@ -19,17 +19,37 @@ redirect_from:
 
 My research focuses on understanding and controlling generative models to ensure they produce meaningful and trustworthy content. 
 
-<!-- I am fortunate to be advised by the wonderful [Prof. Chen Sun](https://chensun.me) and [Prof. Kaidi Xu](https://kaidixu.com). -->
+<!-- I am fortunate to be advised by the wonderful [Prof. Tianlong Chen](https://chensun.me) and [Prof. Kaidi Xu](https://kaidixu.com). -->
 
 # 📖 Educations
 - *Master of Science in CS*, Brown University. 
 - *Bachelor of Science in CS*, Columbia University in the City of New York.
 
 # 🔥 News
+- *2025.08*: &nbsp;🎉🎉 One paper was accepted by EMNLP 2025.
+- *2025.04*: &nbsp;🎉🎉 One paper was accepted by USENIX ATC 2025 and won the best paper award🏆🏆.
 - *2025.01*: &nbsp;🎉🎉 One paper was accepted by NAACL 2025. 
 - *2024.10*: &nbsp;🎉🎉 One paper was accepted by GenAI4Health@NeurIPS 2024 and won the best demo paper award🏆🏆. 
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/AENs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Sparse Neurons Carry Strong Signals of Question Ambiguity in LLMs](https://www.arxiv.org/abs/2509.13664)
+
+**Zhuoxuan Zhang**, Jinhao Duan, Edward Kim, Kaidi Xu
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">USENIX ATC 2025</div><img src='images/Koala.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Koala Benchmarks for the Shell: Characterization and Implications](https://www.usenix.org/conference/atc25/presentation/lamprou)
+
+Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, **Zhuoxuan Zhang**, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='images/GuideLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
