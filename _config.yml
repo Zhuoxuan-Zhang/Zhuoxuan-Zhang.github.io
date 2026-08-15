@@ -6,8 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhuoxuan Zhang's Homepage"
-description              : ""
+title                    : "Zhuoxuan Zhang"
+description              : "Zhuoxuan Zhang is a Computer Science PhD student at UNC-Chapel Hill researching recommendation systems, agentic AI, efficient post-training, and explainable AI."
+url                      : "https://zhuoxuan-zhang.github.io"
 repository               : "Zhuoxuan-Zhang/Zhuoxuan-Zhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +24,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhuoxuan Zhang"
   avatar           : "images/67400945.png"
-  bio              : ""
-  location         : "Providence, RI"
-  employer         :
+  bio              : "Computer Science PhD Student at UNC-Chapel Hill"
+  location         : "Chapel Hill, NC"
+  employer         : "UNC-Chapel Hill"
+  affiliation      : "University of North Carolina at Chapel Hill"
   pubmed           : 
-  googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "zhuoxuan_zhang@brown.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=vsj3gYkAAAAJ&hl=en"
+  email            : "zhuoxuan@cs.unc.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -57,6 +59,14 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  openreview       : "https://openreview.net/profile?id=~Zhuoxuan_Zhang1"
+  aclanthology     : "https://aclanthology.org/people/zhuoxuan-zhang/"
+  cv               : "/Zhuoxuan_Zhang_CV.pdf"
+  same_as:
+    - "https://github.com/Zhuoxuan-Zhang"
+    - "https://scholar.google.com/citations?user=vsj3gYkAAAAJ&hl=en"
+    - "https://openreview.net/profile?id=~Zhuoxuan_Zhang1"
+    - "https://aclanthology.org/people/zhuoxuan-zhang/"
 
 
 # Reading Files

@@ -9,16 +9,13 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h1 class="author__name">{{ author.name }}</h1>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
@@ -105,6 +102,15 @@
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      {% endif %}
+      {% if author.openreview %}
+        <li><a href="{{ author.openreview }}"><i class="fas fa-fw fa-file-alt"></i> OpenReview</a></li>
+      {% endif %}
+      {% if author.aclanthology %}
+        <li><a href="{{ author.aclanthology }}"><i class="fas fa-fw fa-book"></i> ACL Anthology</a></li>
+      {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf"></i> CV</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
@@ -200,6 +206,15 @@
       {% endif %}
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      {% endif %}
+      {% if author.openreview %}
+        <a href="{{ author.openreview }}" aria-label="OpenReview"><i class="fas fa-fw fa-file-alt"></i></a>
+      {% endif %}
+      {% if author.aclanthology %}
+        <a href="{{ author.aclanthology }}" aria-label="ACL Anthology"><i class="fas fa-fw fa-book"></i></a>
+      {% endif %}
+      {% if author.cv %}
+        <a href="{{ author.cv }}" aria-label="Curriculum vitae"><i class="fas fa-fw fa-file-pdf"></i></a>
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>

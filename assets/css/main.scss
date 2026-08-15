@@ -87,8 +87,40 @@
 
 }
 
+.paper-box h3 {
+    margin-top: .45em;
+}
+
+.research-grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+    margin: 1.25em 0 2em;
+
+    @include breakpoint($medium) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.research-card {
+    background: #f7f9fc;
+    border-left: 3px solid #224b8d;
+    border-radius: 4px;
+    padding: 1em 1.1em;
+
+    strong,
+    span {
+        display: block;
+    }
+
+    span {
+        color: #5c6670;
+        margin-top: .35em;
+    }
+}
+
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
+.page__content h1:before, .anchor:before {
     content: ''; 
     display: block; 
     position: relative; 

@@ -8,11 +8,15 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+<title>{{ site.title }} | {{ site.author.bio }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+{% endif %}
+
+{% if seo_description != "" %}
+  <meta name="description" content="{{ seo_description }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -31,14 +35,14 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ site.title }} | {{ site.author.bio }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description != "" %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
@@ -72,4 +76,19 @@
 {% if site.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}" />
 {% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "image": {{ site.author.avatar | absolute_url | jsonify }},
+  "jobTitle": {{ site.author.bio | jsonify }},
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": {{ site.author.affiliation | jsonify }}
+  },
+  "sameAs": {{ site.author.same_as | jsonify }}
+}
+</script>
 <!-- end SEO -->

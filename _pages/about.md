@@ -1,75 +1,120 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Zhuoxuan Zhang"
+description: "Zhuoxuan Zhang is a Computer Science PhD student at UNC-Chapel Hill researching recommendation systems, agentic AI, efficient post-training, and explainable AI."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<span class="anchor" id="about-me"></span>
 
-<span class='anchor' id='about-me'></span>
+I am a PhD student in Computer Science at the **University of North Carolina at Chapel Hill**. My research develops efficient, robust, and interpretable generative models, with a particular focus on recommendation and multimodal reasoning systems.
 
-My research focuses on understanding and controlling generative models to ensure they produce meaningful and trustworthy content. 
+[Curriculum Vitae](/Zhuoxuan_Zhang_CV.pdf){: .btn }
+[Google Scholar](https://scholar.google.com/citations?user=vsj3gYkAAAAJ&hl=en){: .btn .btn--info }
 
-<!-- I am fortunate to be advised by the wonderful [Prof. Tianlong Chen](https://chensun.me) and [Prof. Kaidi Xu](https://kaidixu.com). -->
+## Education
 
-# 📖 Educations
-- *Master of Science in CS*, Brown University. 
-- *Bachelor of Science in CS*, Columbia University in the City of New York.
+- **University of North Carolina at Chapel Hill** — PhD in Computer Science, expected May 2029
+- **Columbia University** — BS in Computer Science, August 2022–May 2024
 
-# 🔥 News
-- *2025.08*: &nbsp;🎉🎉 One paper was accepted by EMNLP 2025.
-- *2025.04*: &nbsp;🎉🎉 One paper was accepted by USENIX ATC 2025 and won the best paper award🏆🏆.
-- *2025.01*: &nbsp;🎉🎉 One paper was accepted by NAACL 2025. 
-- *2024.10*: &nbsp;🎉🎉 One paper was accepted by GenAI4Health@NeurIPS 2024 and won the best demo paper award🏆🏆. 
+<span class="anchor" id="research"></span>
 
-# 📝 Publications 
+## Research Interests
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/AENs.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="research-grid">
+  <div class="research-card"><strong>Recommendation Systems</strong><span>Efficient and robust models for long-sequence and multimodal recommendation.</span></div>
+  <div class="research-card"><strong>Agentic AI</strong><span>Multimodal reasoning frameworks for education, cognitive support, and health.</span></div>
+  <div class="research-card"><strong>Post-Training & RL Efficiency</strong><span>Efficient post-training methods and multimodal post-training scaling laws.</span></div>
+  <div class="research-card"><strong>Explainable AI</strong><span>Neuron-level and process-level interpretability for generative and recommendation models.</span></div>
+</div>
 
-[Sparse Neurons Carry Strong Signals of Question Ambiguity in LLMs](https://www.arxiv.org/abs/2509.13664)
+<span class="anchor" id="experience"></span>
+
+## Experience & News
+
+- **May 2026–Present:** Research Scientist Intern, TikTok Feed Recommendation at ByteDance, developing long-sequence recommendation pipelines and KV-cache optimization.
+- **July 2026:** Released *Diffusion-GR2*, a block-diffusion generative reasoning re-ranker developed with UNC and Meta.
+- **November 2025:** *Sparse Neurons Carry Strong Signals of Question Ambiguity in LLMs* appeared at EMNLP 2025.
+- **July 2025:** *The Koala Benchmarks for the Shell* received the USENIX ATC 2025 Best Paper Award.
+- **January 2025:** *GuideLLM* was accepted to NAACL 2025.
+
+<span class="anchor" id="publications"></span>
+
+## Publications
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">arXiv 2026</div><img src="images/DiffusionGR2.svg" alt="Overview of the Diffusion-GR2 training pipeline" width="100%"></div></div>
+<div class="paper-box-text" markdown="1">
+
+### [Diffusion-GR2: Diffusion Generative Reasoning Re-ranker](https://arxiv.org/abs/2607.01170)
+
+**Zhuoxuan Zhang\***, Kangqi Ni\*, Yuhang Chen\*, Mingfu Liang\*, Xiaohan Wei, Yunchen Pu, Fei Tian, Chonglin Sun, Frank Shyu, Adam Song, Sandeep Pandey, Luke Simon, Tianlong Chen, Xi Liu
+
+arXiv 2026.
+</div>
+</div>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">EMNLP 2025</div><img src="images/AENs.png" alt="Overview of ambiguity-encoding neurons" width="100%"></div></div>
+<div class="paper-box-text" markdown="1">
+
+### [Sparse Neurons Carry Strong Signals of Question Ambiguity in LLMs](https://aclanthology.org/2025.emnlp-main.813/)
 
 **Zhuoxuan Zhang**, Jinhao Duan, Edward Kim, Kaidi Xu
+
+EMNLP 2025.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">USENIX ATC 2025</div><img src='images/Koala.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Best Paper</div><img src="images/Koala.png" alt="The Koala Benchmarks project" width="100%"></div></div>
+<div class="paper-box-text" markdown="1">
 
-[The Koala Benchmarks for the Shell: Characterization and Implications](https://www.usenix.org/conference/atc25/presentation/lamprou)
+### [The Koala Benchmarks for the Shell: Characterization and Implications](https://www.usenix.org/conference/atc25/presentation/lamprou)
 
 Evangelos Lamprou, Ethan Williams, Georgios Kaoukis, **Zhuoxuan Zhang**, Michael Greenberg, Konstantinos Kallas, Lukas Lazarek, Nikos Vasilakis
+
+USENIX ATC 2025, Best Paper Award.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='images/GuideLLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">NAACL 2025</div><img src="images/GuideLLM.png" alt="GuideLLM conversation framework" width="100%"></div></div>
+<div class="paper-box-text" markdown="1">
 
-[GuideLLM: Exploring LLM-Guided Conversation with Applications in Autobiography Interviewing](https://arxiv.org/abs/2502.06494)
+### [GuideLLM: Exploring LLM-Guided Conversation with Applications in Autobiography Interviewing](https://arxiv.org/abs/2502.06494)
 
-Jinhao Duan\*, Xinyu Zhao\*, **Zhuoxuan Zhang\***, Eunhye Grace Ko, Lily Boddy, Chenan Wang, Tianhao Li, Alexander Rasgon, Junyuan Hong, Min Kyung Lee, Chenxi Yuan, Qi Long, Ying Ding, Tianlong Chen, Kaidi Xu
+**Zhuoxuan Zhang\***, Jinhao Duan\*, Xinyu Zhao\*, Eunhye Grace Ko, Lily Boddy, Chenan Wang, Tianhao Li, Alexander Rasgon, Junyuan Hong, Min Kyung Lee, Chenxi Yuan, Qi Long, Ying Ding, Tianlong Chen, Kaidi Xu
+
+NAACL 2025.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GenAI4Health@NeurIPS 2024</div><img src='images/DemoLLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">Best Demo</div><img src="images/DemoLLM.png" alt="LLM-guided reminiscence therapy demo" width="100%"></div></div>
+<div class="paper-box-text" markdown="1">
 
-[Demo: An Exploration of LLM-Guided Conversation in Reminiscence Therapy](https://openreview.net/pdf?id=G6h0ya2d2c)
+### [An Exploration of LLM-Guided Conversation in Reminiscence Therapy](https://openreview.net/forum?id=G6h0ya2d2c)
 
-Jinhao Duan\*, Xinyu Zhao\*, **Zhuoxuan Zhang\***, Eunhye Grace Ko, Lily Boddy, Chenan Wang, Tianhao Li, Alexander Rasgon, Junyuan Hong, Min Kyung Lee, Chenxi Yuan, Qi Long, Ying Ding, Tianlong Chen, Kaidi Xu
+**Zhuoxuan Zhang\***, Jinhao Duan\*, Xinyu Zhao\*, Eunhye Grace Ko, Lily Boddy, Chenan Wang, Tianhao Li, Alexander Rasgon, Junyuan Hong, Min Kyung Lee, Chenxi Yuan, Qi Long, Ying Ding, Tianlong Chen, Kaidi Xu
+
+GenAI4Health at NeurIPS 2024, Best Demo Paper Award.
 </div>
 </div>
 
-# 🫡 Miscellaneous
-I love art in all its forms, both auditory and visual, finding beauty in both Western classical music and Eastern traditional performances. Playing the violin is one of my greatest joys, and I have a deep appreciation for Western classical music. I also enjoy Peking opera, especially the Shang School of Peking Opera Dan role (尚派), xiangsheng (crosstalk, a traditional Chinese comedic dialogue), and classical Chinese dance like 朝鲜舞 (Korean ethnic dance in the Chinese classical dance style).
+## Manuscripts Under Review
 
-<!-- I grew up in Tianjin before moving to the U.S. for college, and I highly recommend visiting my hometown.Tianjin is a hub for traditional performing arts like kuaiban (快板, rhythmic storytelling with bamboo clappers), xiangsheng, dagu (大鼓, drum-accompanied ballads), and pingshu (评书, storytelling). The city is also famous for its breakfast culture, with must-try specialties like 煎饼果子 (a popular Chinese crepe), 嘎巴菜 (crispy fried dough in savory soup, another form of 煎饼果子), etc. -->
+- **Scaling Laws for Multimodal Large Reasoning Models with Arbitrary Modality Combinations**<br>
+  Jie Peng, **Zhuoxuan Zhang**, Gengwei Zhang, Huaizhi Qu, Hossein Nourkhiz Mahjoub, Vaishnav Tadiparthi, Kwonjoon Lee, Ehsan Moradi Pari, Yanyong Zhang, Tianlong Chen
+- **Targeted Poisoning of Generative Recommendation Models via Context-Aligned Interactions**<br>
+  **Zhuoxuan Zhang**, Jinhao Duan, Xinyu Zhao, Jinduo Guo, Shuai Shao, Rui Li, Luke Simon, Zhun Deng, Tianlong Chen, Bo Sun
+- **Faithful Chains: Enforcing Temporal Consistency in CoT Reasoning via Bellman Regularization**<br>
+  **Zhuoxuan Zhang**, Zhen Tan, Dawei Li, Bohan Jiang, Song Wang, Huan Liu, Tianlong Chen
+
+<small>\* Equal contribution. Publication and manuscript information updated from the supplied CV and Google Scholar profile.</small>
+
+<span class="anchor" id="miscellaneous"></span>
+
+## Miscellaneous
+
+I love art in all its forms, both auditory and visual. Playing the violin is one of my greatest joys, and I have a deep appreciation for Western classical music. I also enjoy Peking opera—especially the Shang School Dan role—xiangsheng (traditional Chinese crosstalk), and classical Chinese dance, including Korean ethnic dance in the Chinese classical dance style.
+
+I am also deeply interested in aviation. I enjoy learning about flight and am currently working toward my Private Pilot License (PPL).
