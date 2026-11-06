@@ -36,6 +36,7 @@ I am a PhD student in Computer Science at the **University of North Carolina at 
 ## Experience & News
 
 - **May 2026–Present:** Research Scientist Intern, TikTok Feed Recommendation at ByteDance, developing long-sequence recommendation pipelines and KV-cache optimization.
+- **October 2026:** Released *AlignPoison*, a black-box framework for studying conditional targeted poisoning in generative recommender systems.
 - **July 2026:** Released *Diffusion-GR2*, a block-diffusion generative reasoning re-ranker developed with UNC and Meta.
 - **November 2025:** *Sparse Neurons Carry Strong Signals of Question Ambiguity in LLMs* appeared at EMNLP 2025.
 - **July 2025:** *The Koala Benchmarks for the Shell* received the USENIX ATC 2025 Best Paper Award.
@@ -44,6 +45,17 @@ I am a PhD student in Computer Science at the **University of North Carolina at 
 <span class="anchor" id="publications"></span>
 
 ## Publications
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">arXiv 2026</div><img src="images/align-poison.png" alt="Overview of the AlignPoison framework" width="100%"></div></div>
+<div class="paper-box-text" markdown="1">
+
+### [AlignPoison: Conditional Targeted Poisoning of Generative Recommenders via Decoding-Aligned Prefixes](https://arxiv.org/abs/2610.14487)
+
+**Zhuoxuan Zhang\***, Jinhao Duan\*, Xinyu Zhao, Jinduo Guo, Shuai Shao, Rui Li, Luke Simon, Zhun Deng, Tianlong Chen, Bo Sun
+
+arXiv 2026.
+</div>
+</div>
 
 <div class="paper-box"><div class="paper-box-image"><div><div class="badge">arXiv 2026</div><img src="images/DiffusionGR2.svg" alt="Overview of the Diffusion-GR2 training pipeline" width="100%"></div></div>
 <div class="paper-box-text" markdown="1">
@@ -104,12 +116,10 @@ GenAI4Health at NeurIPS 2024, Best Demo Paper Award.
 
 - **Scaling Laws for Multimodal Large Reasoning Models with Arbitrary Modality Combinations**<br>
   Jie Peng, **Zhuoxuan Zhang**, Gengwei Zhang, Huaizhi Qu, Hossein Nourkhiz Mahjoub, Vaishnav Tadiparthi, Kwonjoon Lee, Ehsan Moradi Pari, Yanyong Zhang, Tianlong Chen
-- **Targeted Poisoning of Generative Recommendation Models via Context-Aligned Interactions**<br>
-  **Zhuoxuan Zhang**, Jinhao Duan, Xinyu Zhao, Jinduo Guo, Shuai Shao, Rui Li, Luke Simon, Zhun Deng, Tianlong Chen, Bo Sun
 - **Faithful Chains: Enforcing Temporal Consistency in CoT Reasoning via Bellman Regularization**<br>
   **Zhuoxuan Zhang**, Zhen Tan, Dawei Li, Bohan Jiang, Song Wang, Huan Liu, Tianlong Chen
 
-<small>\* Equal contribution. Publication and manuscript information updated from the supplied CV and Google Scholar profile.</small>
+<small>\* Equal contribution. Publication and manuscript information updated from the supplied CV, Google Scholar profile, and arXiv.</small>
 
 <span class="anchor" id="miscellaneous"></span>
 
